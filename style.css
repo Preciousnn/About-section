@@ -1,169 +1,168 @@
 @font-face {
-    font-family:"Custom";
-    src:url("./Assets/fonts/leitura-display-swashes.otf") format("opentype");
+  font-family: "Custom";
+  src: url("./Assets/fonts/leitura-display-swashes.otf") format("opentype");
 }
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.Navbar{
-    background-color:#0A0B2E;
-    /* display: flex; */
-    /* justify-content:flex-start; */
-    color: #fff;
-    /* margin-bottom: 50px; */
-    padding: 20px 20px 20px 20px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 3rem;
-    font-weight: 700;
+.Navbar {
+  background-color: #0a0b2e;
+  /* display: flex; */
+  /* justify-content:flex-start; */
+  color: #fff;
+  /* margin-bottom: 50px; */
+  padding: 20px 20px 20px 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3rem;
+  font-weight: 700;
 }
 
-.menu{
-    /* border: 1px solid #fff; */
-    padding: 10px;
-    margin-right: 20px;
+.menu {
+  /* border: 1px solid #fff; */
+  padding: 10px;
+  margin-right: 20px;
 }
 
 .text {
-    font-size: 1.5rem;
-    font-weight: 200;
+  font-size: 1.5rem;
+  font-weight: 200;
 }
 
-.Navbar li{
-    list-style: none;
+.Navbar li {
+  list-style: none;
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: 200px 200px 200px, 200px;
-    grid-template-rows: 300px 300px 300px 300px 300px 300px 300px;
-    /* grid-gap: 10px; */
-    border: 1.5px solid #d9d9d9;
-
+  display: grid;
+  grid-template-columns: 200px 200px 200px, 200px;
+  grid-template-rows: 300px 300px 300px 300px 300px 300px 300px;
+  /* grid-gap: 10px; */
+  border: 1.5px solid #d9d9d9;
 }
-.grid-container div{
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    font-family:"Custom";
-    font-size: 3rem;
-    padding: 0 20px 10px 0;
+.grid-container div {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-family: "Custom";
+  font-size: 3rem;
+  padding: 0 20px 10px 0;
 }
 
 .grid-container .special1 {
-    grid-row-start: 1;
-    grid-row-end: 4;
-    /* background-color: #fff; */
-    background-image: url(.//Assets/images/WhatsApp\ Image\ 2023-04-07\ at\ 3.55.33\ PM.jpeg) ;
-    background-size: cover;
-    background-position: center;
-    background-position-y: 0%;
-    /* background-repeat: no-repeat; */
-    color:#6d8dc8;
-    writing-mode: horizontal-tb;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  /* background-color: #fff; */
+  background-image: url(.//Assets/images/WhatsApp\ Image\ 2023-04-07\ at\ 3.55.33\ PM.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-position-y: 0%;
+  /* background-repeat: no-repeat; */
+  color: #6d8dc8;
+  writing-mode: horizontal-tb;
 }
 
 .grid-container .special2 {
-    grid-row-start: 1;
-    grid-row-end: 3;
-    /* background-color: #ede5f0; */
-    background-image: url(.//Assets/images/WhatsApp\ Image\ 2023-06-01\ at\ 9.03.29\ PM.jpeg);
-    background-size: cover;
-    background-position: center;
-    color:#fff;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  /* background-color: #ede5f0; */
+  background-image: url(.//Assets/images/WhatsApp\ Image\ 2023-06-01\ at\ 9.03.29\ PM.jpeg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
 }
 
 .grid-container .special3 {
-    /* background-color: #6d8dc8; */
-    background-image: url(.//Assets/images/IMG_8382.jpeg) ;
-    background-size: cover;
-    background-position: center;
-    background-position-y: 70%;
-    color: #B3E5E2;   
+  /* background-color: #6d8dc8; */
+  background-image: url(.//Assets/images/IMG_8382.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-position-y: 70%;
+  color: #b3e5e2;
 }
 
 .grid-container .special4 {
-    /* background-color: #A582BC; */
-    background-image: url(.//Assets/images/IMG_3970.jpeg) ;
-    background-size: cover;
-    background-position: center;
-    background-position-y: 5%;
-    color: #fff;   
+  /* background-color: #A582BC; */
+  background-image: url(.//Assets/images/IMG_3970.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-position-y: 5%;
+  color: #fff;
 }
 
 .grid-container .special6 {
-    /* background-color: #CCEFEB; */
-    background-image: url(.//Assets/images/IMG_0320.JPG) ;
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    background-position-y: 35%;
+  /* background-color: #CCEFEB; */
+  background-image: url(.//Assets/images/IMG_0320.JPG);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  background-position-y: 35%;
 }
 
 .grid-container .special5 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 5;
-    /* background-color: #ccefeb; */
-    background-image: url(.//Assets/images/Precious-CV-1-min.jpg);
-    background-size: cover;
-    background-position: center;
-    background-position-y: 20%;
-    color:#fff;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  /* background-color: #ccefeb; */
+  background-image: url(.//Assets/images/Precious-CV-1-min.jpg);
+  background-size: cover;
+  background-position: center;
+  background-position-y: 20%;
+  color: #fff;
 }
 
-.grid-container .special7{
-    grid-row-start: 4;
-    grid-row-end: 6;
-    /* background-color: #EDE5F0; */
-    background-image: url(.//Assets/images/WhatsApp\ Image\ 2023-06-01\ at\ 9.02.23\ PM.jpeg);
-    background-size: cover;
-    background-position: center;
-    color: #6d8dc8;
+.grid-container .special7 {
+  grid-row-start: 4;
+  grid-row-end: 6;
+  /* background-color: #EDE5F0; */
+  background-image: url(.//Assets/images/WhatsApp\ Image\ 2023-06-01\ at\ 9.02.23\ PM.jpeg);
+  background-size: cover;
+  background-position: center;
+  color: #6d8dc8;
 }
 
-.grid-container .special8{
-    grid-row-start: 4;
-    grid-row-end: 6;
-    /* background-color: #fff; */
-    background-image: url(.//Assets/images/WhatsApp\ Image\ 2022-10-20\ at\ 11.39.27\ AM.jpeg) ;
-    background-size: cover;
-    background-position: center;
-    background-position-y: 40%;
-    color: #ede5f0;
+.grid-container .special8 {
+  grid-row-start: 4;
+  grid-row-end: 6;
+  /* background-color: #fff; */
+  background-image: url(.//Assets/images/WhatsApp\ Image\ 2022-10-20\ at\ 11.39.27\ AM.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-position-y: 40%;
+  color: #ede5f0;
 }
 
-.grid-container .special9{
-    /* background-color: #A582BC; */
-    background-image: url(.//Assets/images/WhatsApp\ Image\ 2023-04-03\ at\ 12.26.06\ AM.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-position-y: 70%;
-    color: #B3E5E2;
+.grid-container .special9 {
+  /* background-color: #A582BC; */
+  background-image: url(.//Assets/images/WhatsApp\ Image\ 2023-04-03\ at\ 12.26.06\ AM.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-position-y: 70%;
+  color: #b3e5e2;
 }
 
-.grid-container .special10{
-    grid-column-start: 3;
-    grid-row-start: 6;
-    grid-row-end:8;
-    /* grid-column-end: ; */
-    /* background-color: #6d8dc8; */
-   background-image: url(.//Assets/images/WhatsApp\ Image\ 2023-06-01\ at\ 9.02.54\ PM.jpeg);
-    background-size: cover;
-    background-position: center;
-    color: #B3E5E2;
-    writing-mode: horizontal-tb;
+.grid-container .special10 {
+  grid-column-start: 3;
+  grid-row-start: 6;
+  grid-row-end: 8;
+  /* grid-column-end: ; */
+  /* background-color: #6d8dc8; */
+  background-image: url(.//Assets/images/WhatsApp\ Image\ 2023-06-01\ at\ 9.02.54\ PM.jpeg);
+  background-size: cover;
+  background-position: center;
+  color: #b3e5e2;
+  writing-mode: horizontal-tb;
 }
 
-.page-wrapper{
-    margin: 0 auto;
-    max-width: 1500px;
-    text-align: center;
+.page-wrapper {
+  margin: 0 auto;
+  max-width: 1500px;
+  text-align: center;
 }
 
-.wrapper{
-    font-weight: 1000;
+.wrapper {
+  font-weight: 1000;
 }
